@@ -21,6 +21,22 @@
         }
       </script>
 </head>
+<header class="bg-white">
+  <nav class="flex justify-between px-4 lg:px-16 items-center">
+    <div class="nav-logo">
+      <img class="h-14 w-30 p-2" src="images/logo.png" alt="">
+    </div>
+    <ul class="nav-menu hidden lg:flex">
+      <li class="menu-item mr-4 lg:mr-14"><a href="#">Home</a></li>
+      <li class="menu-item mr-4 lg:mr-14"><a href="#">Product</a></li>
+      <li class="menu-item mr-4 lg:mr-14"><a href="#">About Us</a></li>
+      <li class="menu-item mr-4 lg:mr-14"><a href="#">Contact Us</a></li>
+      <li class="menu-item mr-4 lg:mr-14">
+        <a href="#man jacket">Man Jacket</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 <body>
   <header class="bg-penguin pb-32 pt-12">
     <section class="container mx-auto sm:flex items-center justify-around">
@@ -90,7 +106,7 @@
       </div>
     </section>
     <!-- man jacket -->
-      <section>
+      <section class="text-red" id="man jacket">
         <h2 class="text-5xl font-bold p-4">Man Jacket</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
           <!-- Jacket-4 -->
@@ -140,9 +156,9 @@
       <!-- Our Benefits -->
       <section>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 p-5 mb-24">
-          <div class="row-span-3 p-5 mt-5">
+          <!-- <div class="row-span-3 p-5 mt-5">
             <img src="images/shopping.png" alt="">
-          </div>
+          </div> -->
           <div class="rounded-lg flex bg-white p-6">
             <img class="w-20 h-20" src="images/house.png" alt="">
             <div>
@@ -151,9 +167,6 @@
                 offer styles for every body.</p>
             </div>
           </div>
-          <!-- <div class="row-span-3 p-5 mt-5">
-            <img src="images/shopping.png" alt="">
-          </div> -->
           <!-- <div class="h-32 bg-slate-500"> -->
             <!-- <div class="grid grid-cols-2 gap-7"> -->
               <div class="rounded-lg flex bg-white p-6">
@@ -172,14 +185,16 @@
                     literally what we pay them for.</p>
                 </div>
               </div>
+              <div class="row-span-3 p-5 mt-5">
+                <img src="images/shopping.png" alt="">
+              </div>
             </div>
           </div>
-          
         </div>
       </section>
   </main>
-  <footer>
-    <p>Buy from us</p>
+  <footer class="mt-5">
+    <p class="font-bold text-3xl items-center">Buy from us</p>
   </footer>
 </body>
 </html>
